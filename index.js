@@ -16,7 +16,7 @@ app.use(express.json());
 
 // MongoDB connection
 // mongoose.connect('mongodb://127.0.0.1/grad', {
-  mongoose.connect('mongodb+srv://gradhous:gradhouse@123@cluster0.mxagffa.mongodb.net/?retryWrites=true&w=majority', {
+  mongoose.connect('mongodb+srv://gradhous:qwertyuiop@cluster0.mxagffa.mongodb.net/?retryWrites=true&w=majority', {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 });
