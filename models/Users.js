@@ -13,12 +13,13 @@ const userSchema = new mongoose.Schema({
     max: 50,
     unique: true,
   },
-  phoneno: {
-    type: String, // Assuming phoneno can be a string to include '+' and country code
-    required: true,
-    unique: true,
+  phoneNumber: {
+    type: String,
   },
   countryCode: {
+    type: String,
+  },
+  fullPhoneNumber: {
     type: String,
   },
 }, { timestamps: true });
