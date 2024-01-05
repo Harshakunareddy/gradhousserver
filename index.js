@@ -3,7 +3,7 @@ import mongoose from 'mongoose';
 import cors from 'cors';
 import helmet from 'helmet';
 import morgan from 'morgan';
-import registerController from "./controllers/Auth.js";
+import registerController from "./controllers/auth.js";
 
 const app = express();
 const port = 3001;
