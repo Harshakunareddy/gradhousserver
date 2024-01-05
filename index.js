@@ -3,7 +3,7 @@ import mongoose from 'mongoose';
 import cors from 'cors';
 import helmet from 'helmet';
 import morgan from 'morgan';
-import registerController from "./controllers/auth.js";
+import registerController from "./controllers/Auth.js";
 
 const app = express();
 const port = 3001;
@@ -15,7 +15,7 @@ app.use(cors());
 app.use(express.json());
 
 // MongoDB connection
-// mongoose.connect('mongodb://127.0.0.1/grad', {
+  // mongoose.connect('mongodb://127.0.0.1/grad', {
   mongoose.connect('mongodb+srv://gradhous:qwertyuiop@cluster0.mxagffa.mongodb.net/?retryWrites=true&w=majority', {
   useNewUrlParser: true,
   useUnifiedTopology: true,
